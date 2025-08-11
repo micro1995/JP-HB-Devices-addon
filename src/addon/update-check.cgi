@@ -1,6 +1,6 @@
 #!/bin/tclsh
-set checkURL    "https://raw.githubusercontent.com/jp112sdl/jp-hb-devices-addon/master/src/addon/VERSION"
-set downloadURL "https://github.com/jp112sdl/JP-HB-Devices-addon/releases/latest"
+set checkURL    "https://raw.githubusercontent.com/micro1995/jp-hb-devices-addon/master/src/addon/VERSION"
+set downloadURL "https://github.com/micro1995/JP-HB-Devices-addon/releases/latest"
 catch {
   set input $env(QUERY_STRING)
   set pairs [split $input &]

@@ -239,6 +239,7 @@
      "stringTableCharacteristicHalfConstant" : "halbe/konstante Leistung",
      "stringTableCharacteristicLevelLimit" : "Pegelbegrenzung",
      "stringTableCharacteristicLinSquareType" : "Ausgangskennlinie",
+\ No newline at end of file
 --- ./patchsource/www/webui/js/lang/en/translate.lang.stringtable.js.orig
 +++ ./patchsource/www/webui/js/lang/en/translate.lang.stringtable.js
 @@ -109,6 +109,37 @@
@@ -279,3 +280,4 @@
      "stringTableCharacteristicHalfConstant" : "half/constant power",
      "stringTableCharacteristicLevelLimit" : "Level limitation",
      "stringTableCharacteristicLinSquareType" : "Output characteristic",
+\ No newline at end of file

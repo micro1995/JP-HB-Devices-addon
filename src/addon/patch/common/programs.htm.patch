@@ -44,16 +44,18 @@
  
    // Heating thermostate
    SetPartyMode = function(elm) {
-@@ -154,6 +191,9 @@
+\ No newline at end of file
+@@ -153,6 +190,9 @@
+         break;
        case "ACOUSTIC_DIS-EP":
          elm = jQuery("#ePaperAcousticDisplay" + regaDialogID);
-         break;
++        break;
 +      case "DIS-EP42BW":
 +        elm = jQuery("#setHbStatusDisplayEPaper" + regaDialogID);
-+        break;
+         break;
      }
  
-     jQuery(elm).prop("disabled", true);
+\ No newline at end of file
 @@ -192,6 +232,19 @@
              inputElm.change();
            }
@@ -74,3 +76,4 @@
        } else if (mode == "ACOUSTIC_DIS-EP") {
          statusDisplayDialog = new StatusDisplayDialogAcousticEPaper(translateKey("statusDisplayDialogTitle"), htmlContent, jQuery(inputElm).val(), function (result) {
            if (result == this.RESULT_YES) {
+\ No newline at end of file

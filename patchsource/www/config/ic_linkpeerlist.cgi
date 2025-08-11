@@ -323,6 +323,7 @@ proc put_tablebody {} {
           set devType $sender_descr(PARENT_TYPE)
           if { 
            ([string equal -nocase "HB-LC-Sw1PBU-FM"       $devType] == 1) ||
+	   ([string equal -nocase "HB-LC-Sw1PBU-FM-Current"       $devType] == 1) ||
            ([string equal -nocase "HB-LC-Sw2PBU-FM"       $devType] == 1) ||
            ([string equal -nocase "HB-LC-Bl1PBU-FM"       $devType] == 1) ||
            ([string equal -nocase "HB-LC-Sw1-FM"          $devType] == 1) ||
